@@ -1,0 +1,12 @@
+/*
+Theme Name: AutoTrader Child
+Theme URI: http://themefuse.com/demo/wp/autotrader/
+Description: Child theme for the AutoTrader. Child themes are the recommended way of making modifications to a theme. <a href="http://codex.wordpress.org/Child_Themes">Reade More</a>
+Author: ThemeFuse
+Author URI: http://themefuse.com
+Template: autotrader-parent
+*/
+
+@import url("../autotrader-parent/style.css");
+
+@import url("../autotrader-parent/screen.css");

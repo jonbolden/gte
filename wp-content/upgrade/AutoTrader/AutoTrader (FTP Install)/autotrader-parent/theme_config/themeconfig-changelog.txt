@@ -1,0 +1,114 @@
+*** Theme Config Changelog ***
+
+ 2014.09.26 - version 1.3.4
+ * changes for avatar function
+	autotrader-parent/theme_config/options/admin_options.php
+	autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * minor changes
+	autotrader-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+	autotrader-parent/theme_config/extensions/seek/views/items/interval-select.php
+ 
+ 2014.09.15 - version 1.3.3
+ * added sliders interval and newsletter subscription changes
+	autotrader-parent/theme_config/config/theme_config.php
+	autotrader-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php
+	autotrader-parent/theme_config/extensions/slider/designs/carousel/options/carousel_options.php
+	autotrader-parent/theme_config/extensions/slider/designs/carousel/template.php
+	autotrader-parent/theme_config/extensions/slider/designs/featured/options/featured_options.php
+	autotrader-parent/theme_config/extensions/slider/designs/featured/template.php
+	autotrader-parent/theme_config/extensions/slider/designs/fullbanner/options/fullbanner_options.php
+	autotrader-parent/theme_config/extensions/slider/designs/fullbanner/template.php
+	autotrader-parent/theme_config/extensions/slider/designs/image_video/options/image_video_options.php
+	autotrader-parent/theme_config/extensions/slider/designs/image_video/template.php
+	autotrader-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+ * minor changes for qtranslate
+	autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	autotrader-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php
+ * minor changes
+	autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	autotrader-parent/theme_config/theme_includes/TFUSE_MEDIA.php
+ 
+ 2014.04.08 - version 1.3.2
+ * added population method for carousel slider
+	autotrader-parent/theme_config/extensions/slider/designs/carousel/options/carousel_options.php
+	autotrader-parent/theme_config/extensions/slider/designs/image_video/options/image_video_options.php
+	autotrader-parent/theme_config/theme_includes/THEME_HEADER_CONTENT.php
+ * minor changes
+	autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * fixed issue in select on mobile devices
+	autotrader-parent/theme_config/extensions/seek/static/js/scripts.js
+	autotrader-parent/theme_config/extensions/seek/views/items/custom-select.php
+	autotrader-parent/theme_config/extensions/seek/views/items/interval-select.php
+	autotrader-parent/theme_config/extensions/seek/views/items/multi-taxonomy-select.php
+	autotrader-parent/theme_config/extensions/seek/views/items/sensitive-multi-taxonomy-select.php
+	autotrader-parent/theme_config/extensions/seek/views/items/taxonomy-select.php
+
+ 2014.01.13 - version 1.3.1
+ * updated reservation form settings
+	autotrader-parent/theme_config/extensions/reservationform/configurations/base_cfg.php
+	autotrader-parent/theme_config/extensions/reservationform/options/reservationform_options.php
+	autotrader-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+	autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * added target parameter for megamenu items
+	autotrader-parent/theme_config/extensions/megamenu/views/custom.php
+	autotrader-parent/theme_config/extensions/megamenu/views/from_children.php
+ * fixed minor problem for search
+	autotrader-parent/theme_config/extensions/seek/includes/sql_generators.php
+ * Compatibility with theme-check plugin
+	autotrader-parent/theme_config/extensions/seek/options/vehicle_options.php
+	autotrader-parent/theme_config/extensions/seek/views/items/sensitive-taxonomy-select.php
+	autotrader-parent/theme_config/extensions/shortcodes/shortcodes/icons.php
+	autotrader-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+	autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	autotrader-parent/theme_config/widgets/TFuse_Widget_Adds.php
+
+ 2013.11.21 - version 1.3
+ * added new function for resize
+	autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * minor changes for transltations
+	autotrader-parent/theme_config/extensions/seek/includes/custom_taxonomies.php
+	autotrader-parent/theme_config/extensions/seek/includes/custom_functions.php
+	autotrader-parent/theme_config/extensions/seek/includes/custom_taxonomies.php
+ * added array for sidebars name
+	autotrader-parent/theme_config/extensions/sidebars/configurations/base_cfg.php
+ * solved problem with price position and year format
+	autotrader-parent/theme_config/extensions/seek/includes/sql_generators.php
+	autotrader-parent/theme_config/extensions/seek/options/items_options.php
+	autotrader-parent/theme_config/extensions/seek/views/items/custom-select.php
+	autotrader-parent/theme_config/extensions/seek/views/items/taxonomy-select.php
+	autotrader-parent/theme_config/extensions/seek/options/items_options.php
+	autotrader-parent/theme_config/extensions/seek/views/items/custom-select.php
+	autotrader-parent/theme_config/extensions/seek/views/items/taxonomy-select.php
+	autotrader-parent/theme_config/extensions/seek/views/zones/header.php
+ * minor issue fixed in slider from posts
+	autotrader-parent/theme_config/theme_includes/THEME_HEADER_CONTENT.php
+ * theme is translatable
+	autotrader-parent/theme_config/extensions/seek/includes/custom_functions.php
+	autotrader-parent/theme_config/extensions/seek/includes/custom_taxonomies.php
+	autotrader-parent/theme_config/extensions/contactform/configurations/base_cfg.php
+	autotrader-parent/theme_config/extensions/contactform/options/contactform_options.php
+	autotrader-parent/theme_config/extensions/reservationform/configurations/base_cfg.php
+	autotrader-parent/theme_config/extensions/reservationform/options/reservationform_options.php
+	autotrader-parent/theme_config/extensions/seek/options/seek_setup_options.php
+	autotrader-parent/theme_config/extensions/seek/options/vehicle_options.php
+	autotrader-parent/theme_config/extensions/shortcodes/shortcodes/box.php
+	autotrader-parent/theme_config/extensions/shortcodes/shortcodes/prettyPhoto.php
+	autotrader-parent/theme_config/extensions/shortcodes/shortcodes/slideshow.php
+	autotrader-parent/theme_config/extensions/sidebars/configurations/base_cfg.php
+	autotrader-parent/theme_config/extensions/slider/configurations/base_cfg.php
+	autotrader-parent/theme_config/extensions/slider/designs/carousel/options/carousel_options.php
+	autotrader-parent/theme_config/extensions/slider/designs/featured/options/featured_options.php
+	autotrader-parent/theme_config/extensions/slider/designs/fullbanner/options/fullbanner_options.php
+	autotrader-parent/theme_config/extensions/slider/designs/image_video/options/image_video_options.php
+	autotrader-parent/theme_config/options/admin_options.php
+	autotrader-parent/theme_config/options/page_options.php
+	autotrader-parent/theme_config/options/post_options.php
+
+2013.08.02 - version 1.1
+ * wp 3.6 bugs
+    autotrader-parent/theme_config/admin_includes/THEME_SCRIPTS_STYLES.php
+    autotrader-parent/theme_config/extensions/seek/options/seek_setup_options.php
+    autotrader-parent/theme_config/extensions/seek/options/vehicle_options.php
+    
+ 2013.07.22 - version 1.0
+ * First release!

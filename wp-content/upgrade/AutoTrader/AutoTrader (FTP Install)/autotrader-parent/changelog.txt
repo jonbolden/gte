@@ -1,0 +1,68 @@
+*** AutoTrader Changelog ***
+
+ 2014.09.26 - version 1.3.4
+ * minor changes
+	autotrader-parent/README.txt
+	autotrader-parent/js/preloadCssImages.js
+ 
+ 2014.09.15 - version 1.3.3
+ * minor changes
+	autotrader-parent/screen.css
+	autotrader-parent/style.css
+ 
+ 2014.04.08 - version 1.3.2
+ * minor changes
+	autotrader-parent/style.css
+	autotrader-parent/js/advanced.js
+ * fixed problem with vehicle year
+	autotrader-parent/functions.php
+	autotrader-parent/taxonomy.php
+	autotrader-parent/template-search.php
+ * fixed issue in select on mobile devices
+	autotrader-parent/js/general.js
+	autotrader-parent/screen.css
+	autotrader-parent/style.css
+
+ 2014.01.13 - version 1.3.1
+ * fixed minor bug for scroll in multiselect
+	autotrader-parent/js/general.js
+ * compatibility with theme-check plugin
+	autotrader-parent/comments.php
+	autotrader-parent/header.php
+	autotrader-parent/single.php
+	autotrader-parent/style.css
+
+ 2013.11.21 - version 1.3
+ * minor issue fixed
+	autotrader-parent/js/jquery.mousewheel.js
+	autotrader-parent/js/advanced.js
+ * solved problem with price position and year format
+	autotrader-parent/offer-views/side-right.php
+ * minor changes for translations
+	autotrader-parent/before-content.php
+
+ 2013.09.06 - version 1.2
+ * seek custom taxonomyes cutom premalink format
+    autotrader-parent/theme_config/extensions/seek/includes/custom_taxonomies.php
+    autotrader-parent/theme_config/extensions/seek/static/js/scripts.js
+    autotrader-parent/theme_config/extensions/seek/views/items/multi-taxonomy-select.php
+    autotrader-parent/theme_config/extensions/seek/views/items/sensitive-multi-taxonomy-select.php
+ * start a car search url
+    autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * breadcrumbs problem on vehicles post type
+    autotrader-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * seek number format options
+    autotrader-parent/theme_config/extensions/seek/views/zones/header.php
+    autotrader-parent/theme_config/extensions/seek/views/zones/specifications.php
+ * ajax pagination blog
+    autotrader-parent/listing-blog.php
+    
+
+ 2013.08.02 - version 1.1
+ * wp 3.6 bugs
+    autotrader-parent/js/advanced.js
+    autotrader-parent/offer-views/side-right.php
+    autotrader-parent/style.css
+
+ 2013.07.22 - version 1.0
+ * First release!
